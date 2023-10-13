@@ -1,0 +1,57 @@
+.App {
+    text-align: center;
+  }
+  .heading{
+    color:cadetblue
+  }
+  /* Add margin to the table */
+  .table-container {
+    margin: 20px;
+  }
+  
+  /* Style the table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: linen;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  /* Style the images within the table */
+  td img {
+    max-width: 150px;
+    max-height: 150px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  
+  /* Style the filter input container */
+  .filter-container {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Style the filter input */
+  .filter-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  /* Style the filter placeholder text */
+  .filter-input::placeholder {
+    color: #888;
+  }
+  
+  /* Style the filter input on focus */
+  .filter-input:focus {
+    border-color: #007BFF;
+  }
